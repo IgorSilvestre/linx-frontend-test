@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    <title>Igor - desafio Linx</title>
+</head>
+<body>
+    <header>
+        <h2 class="header-title-start">uma seleção de produtos</h2>
+        <h1 class="header-title-finish">especial para você</h1>
+        <div class="header-subtitle subtitle">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</div class="header-subtitle">
+        <div class="header-nav">
+            <a href="https://www.linx.com.br/quem-somos/">Conheça a Linx</a>
+            <a href="#form-group">Ajude o Algoritmo</a>
+            <a href="#products">Seus produtos</a>
+            <a href="#newsletter">Compartilhe</a>
+        </div>
+    </header>
+
+    <div id="form-group">
+        <article class="algorithm-article">
+            <h2>Ajude o algorítimo a ser mais certeiro</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu urna. 
+                Mauris rhoncus erat sed interdum dignissim. Suspendisse semper pretium consectetur. 
+                Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. 
+                Cras et erat ut tellus vulputate tincidunt. Aenean lacinia euismod augue vel egestas. 
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                Vestibulum vel urna tortor. Vivamus et arcu non felis tristique eleifend.
+            </p>
+            <p>
+                Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. 
+                Suspendisse quis lorem ultricies, pulvinar purus sed, egestas erat. 
+                Etiam ultricies a ante vehicula pharetra. 
+                Quisque ut neque mattis, consequat velit ut, ultrices orci. 
+                Nulla varius elementum erat vel pharetra. Aenean sit amet nisi diam. 
+                Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus.
+            </p>
+        </article>
+        <form action="" class="algorithm-form">
+            <label>Seu nome:</label>
+            <input class="algorithm-text-input" type="text" required>
+
+            <label>E-mail:</label>
+            <input class="algorithm-text-input" type="email" required>
+
+            <label>CPF:</label>
+            <input class="algorithm-text-input" type="text" maxlength="14" required onkeyup="formatCpf(this)">
+            
+            <div class="gender-picker">
+                <input type="radio" name="gender-select" value="male">
+                <label>Masculino</label>
+    
+                <input type="radio" name="gender-select" value="female">
+                <label>Feminino</label>
+            </div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div id="products" class="area-title">
+        <div class="line"></div>
+        <h2>Sua selecão especial</h2>
+        <div class="line"></div>
+    </div>
+
+    <div id="product-area">
+        <script> insertProduct() </script>
+    </div>
+
+    <div class="more-products">
+        <button onclick="insertProduct()">Ainda mais produtos aqui!</button>
+    </div>
+    <div id="newsletter" class="area-title">
+        <div class="line"></div>
+        <h2>Compartilhe a novidade</h2>
+        <div class="line"></div>
+    </div>
+    <div class="newsletter-area">
+        <p class="subtitle newsletter-subtitle">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+    </div>
+    <form class="newsletter-form">
+        <div class="newsletter-input">
+            <div>
+                <label>Nome do seu amigo:</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label>E-mail:</label>
+                <input type="email" required>
+            </div>
+        </div>
+        <button type="submit">Enviar agora</button>
+    </form>
+
+    <footer>
+        <div class="footer-text">
+            <p>Testando suas habilidades em HTML, CSS e JS.</p>
+            <p>Linx Impulse</p>
+            <p>20219</p>
+        </div>
+    </footer>
+</body>
+</html>

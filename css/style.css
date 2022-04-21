@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    color: #888888;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+h3 {
+    font-size: 14px;
+}
+p {
+    font-size: 12px;
+}
+.subtitle {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+}
+.area-title {
+    margin: auto;
+    margin-top: 79px;
+    max-width: 920px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.area-title h2 {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+header {
+    margin: 0;
+    min-height: 399px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(
+        4deg, 
+        rgb(255, 255, 255) 25%, 
+        rgb(112, 112, 112) 26%
+    );
+}
+.header-title-start {
+    margin: 0;
+    padding-top: 60px;
+    font-size: 20px;
+
+}
+.header-title-finish {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.header-subtitle {
+    margin-top: 24px;
+}
+.header-nav {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 769px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav a {
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #888888;
+    font-weight: lighter;
+}
+
+#form-group {
+    margin: auto;
+    max-width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.algorithm-article {
+    max-width: 520px;
+    height: 273px;
+    line-height: 18px;
+}
+.algorithm-article h2 {
+    margin-bottom: 30px;
+}
+.algorithm-article p {
+    font-weight: lighter;
+}
+
+.algorithm-form {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    
+}
+.algorithm-form label {
+    margin-bottom: 7px;
+    font-weight: lighter;
+}
+.algorithm-form input {
+    margin-bottom: 20px;
+}
+.algorithm-text-input {
+    width: 340px;
+    height: 24px;
+}
+.gender-picker label {
+    margin: 0 40px 23px 0;
+
+}
+.algorithm-form button {
+    background: white;
+    border-width: 1px;
+    border-color: #888888;
+    font-size: 16px;
+    padding: 11px 0 10px 0;
+}
+
+.line {
+    margin-top: 22px;
+    height: 1px;
+    background: #888888;
+    width: 300px;
+}
+
+#product-area {
+    margin: auto;
+    max-width: 931px;
+    padding-left: 33px;
+    display: grid;
+    grid-template-columns: repeat(
+        4, minmax(0, 1fr)
+    );
+}
+
+.product-card {
+    margin-top: 50px;
+    max-height: 350px;
+    max-width: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.product-card img {
+    height: 150px;
+    width: 200px;
+    background-color: white;
+}
+.product-card p {
+    max-width: 201px;
+}
+.product-name {
+    margin: 14px 0 0 0;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.product-description {
+    margin: 10px 0 0 0;
+    font-weight: lighter;
+}
+.product-old-price {
+    margin: 10px 0 0 0;
+    font-weight: lighter;
+}
+.product-price {
+    margin: 6px 0 0 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.product-installment {
+    margin: 7px 0 0 0;
+    font-weight: lighter;
+}
+.product-card button {
+    margin: 10px 0 0 0;
+    height: 30px;
+    background: white;
+    color: #888888;
+    border-width: 1px;
+    border-color: #888888;
+    border-radius: 4px;
+}
+
+.more-products{
+    margin-top: 52px;
+    text-align: center;
+}
+.more-products button {
+    width: 260px;
+    height: 39px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #888888;
+    color: #888888;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.newsletter-area p {
+    margin-top: 44px;
+}
+
+.newsletter-form {
+    margin: auto;
+    margin-top: 39px;
+    max-width: 720px;
+    text-align: center;
+}
+.newsletter-form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-input {
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-input div {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.newsletter-input label {
+    font-size: 12px;
+    font-weight: lighter;
+}
+.newsletter-input input {
+    width: 332px;
+    height: 24px;
+}
+
+.newsletter-form button {
+    margin-top: 50px;
+    width: 260px;
+    height: 39px;
+    background-color: white;
+    border-width: 1px;
+    border-color: #888888;
+    border-radius: 4px;
+    color: #888888;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+footer {
+    margin-top: 72px;
+    padding-top: 147px;
+    height: 147px;
+    background-image: linear-gradient(
+        -3deg,
+        rgb(112, 112, 112) 74%,
+        rgb(255, 255, 255) 75%
+    );
+}
+footer div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: lighter;
+}
