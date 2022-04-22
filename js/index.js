@@ -28,7 +28,6 @@ async function insertProduct () {
     let nextPage = currentPage + 1
     let response = await fetch(`https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=${currentPage}`)
     response = await response.json()
-    console.log(response)
     
     response.products.forEach(product => {
         
