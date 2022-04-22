@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {object} input
+ * @returns {object} with correct cpf format
+*/
 function formatCpf (input) {
     cpf = input.value
 
@@ -10,6 +15,11 @@ function formatCpf (input) {
     return input
 }
 
+/**
+ * 
+ * @param {number}
+ * @returns {string} returns string with money format
+*/
 function numberToMoney (number) {
     const formatter = new Intl.NumberFormat('pt-BR', {
         style: 'currency',
@@ -20,7 +30,7 @@ function numberToMoney (number) {
 
 /**
  * @returns {Object} product card to insert in HTML
- */
+*/
 let currentPage = 1
 async function insertProduct () {
     const productArea = document.getElementById('product-area')
