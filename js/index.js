@@ -1,7 +1,7 @@
 /**
  * 
- * @param {object} input cpf input value
- * @returns {object} with correct cpf format
+ * @param {Object} input cpf input value
+ * @returns {Object} with correct cpf format
 */
 function formatCpf (input) {
     cpf = input.value
