@@ -16,6 +16,10 @@ h3 {
 p {
     font-size: 12px;
 }
+button:hover {
+    cursor: pointer;
+}
+
 .subtitle {
     font-size: 14px;
     font-weight: lighter;
