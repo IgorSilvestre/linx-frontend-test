@@ -278,3 +278,44 @@ footer div {
     color: white;
     font-weight: lighter;
 }
+
+/* ------------- RESOPONSIVE ----------------- */
+
+@media screen and (max-width: 700px) {
+    header {
+        min-height: 398px;
+        text-align: left;
+        color: white;
+        background-image: linear-gradient(
+            15deg, 
+            rgb(255, 255, 255) 25%, 
+            rgb(112, 112, 112) 26%
+        );
+    }
+    .header-title-start {
+        margin-left: 16px;
+        max-width: 230px;
+        padding-top: 66px;
+    }
+    .header-title-finish {
+        margin-left: 16px;
+    }
+    .header-subtitle {
+        margin: 9px 0 0 16px;
+        max-width: 359px;
+        text-align: left;
+    }
+    .header-nav {
+        margin: auto;
+        margin-top: 56px;
+        max-width: 345px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 21px;
+        row-gap: 20px;
+    }
+    .header-nav a {
+        border-color: #888888;
+        border-width: 1px;
+    }
+}
