@@ -43,13 +43,15 @@ async function insertProduct () {
         
         let productCard = `
             <div class="product-card">
-            <img src="${product.image}" alt="${product.name}">
-            <p class="product-name">${product.name}</p>
-            <p class="product-description">${product.description}</p>
-            <p class="product-old-price">De: ${numberToMoney(product.oldPrice)}</p>
-            <p class="product-price">Por: ${numberToMoney(product.price)}</p>
-            <p class="product-installment">ou ${product.installments.count}x de ${numberToMoney(product.installments.value)}</p>
-            <button>Comprar</button>
+                <img src="${product.image}" alt="${product.name}">
+                <div class="product-info-mobile">
+                    <p class="product-name">${product.name}</p>
+                    <p class="product-description">${product.description}</p>
+                    <p class="product-old-price">De: ${numberToMoney(product.oldPrice)}</p>
+                    <p class="product-price">Por: ${numberToMoney(product.price)}</p>
+                    <p class="product-installment">ou ${product.installments.count}x de ${numberToMoney(product.installments.value)}</p>
+                    <button>Comprar</button>
+                </div>    
             </div>
         `
         
