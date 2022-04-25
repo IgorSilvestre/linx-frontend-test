@@ -284,6 +284,19 @@ footer p {
 }
 
 /* ------------- RESOPONSIVE ----------------- */
+@media screen and (max-width: 860px) {
+    .header-nav {
+        max-width: 700px;
+    }
+    #product-area {
+        margin: auto;
+        padding-left: 0;
+        max-width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
 
 @media screen and (max-width: 700px) {
     header {
