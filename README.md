@@ -1,5 +1,5 @@
 
-## Solution 
+## Resultado
 https://igorsilvestre.github.io/linx-frontend-test
 
 ## Introdução
