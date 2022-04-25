@@ -335,8 +335,8 @@ footer p {
     }
 
     #form-group {
+        margin: auto;
         max-width: 385px;
-        margin-left: 17px;
         flex-direction: column;
     }
     .algorithm-article {
